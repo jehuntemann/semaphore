@@ -1,0 +1,42 @@
+*{
+    margin: center;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    display: flex;
+    height: 80vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5vh;
+}
+.button {
+    width: 80px;
+    font-weight: bold;
+    color:black;
+    border-collapse: initial;
+
+}
+
+#red {
+   background-color: red;
+   border-color: red;
+}
+
+#yellow {
+    background-color: yellow;
+    border-color: yellow;
+}
+
+#green {
+    background-color: green;
+    border-color: green;
+}
+#automatic {
+    background-color: dimgrey;
+    border-color: dimgrey;
+
+
+}
